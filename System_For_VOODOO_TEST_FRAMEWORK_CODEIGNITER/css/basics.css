@@ -1,0 +1,151 @@
+/* ESTILOS BASE */
+
+body{
+    background-color: #E8E8E8!important;
+}
+
+a:hover{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+a{
+    color: black !important;
+}
+
+/* COLORES BASE */
+.text-card{
+    text-shadow: 0px 0px 5px black;
+    
+}
+.fondiu{
+    box-shadow: 5px 5px 15px gray!important;
+}
+
+.bg-nav-light{
+    background-color: white!important;
+    border-radius: 10px;
+}
+.bg-card-black{
+    background-color: black !important;
+}
+
+/* FUENTES */
+.poppins{
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0px 0px 5px gray;
+    transition: text-shadow .8s;
+}
+
+.poppins:hover {
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.krona {
+    font-family: 'Krona One', sans-serif !important;
+}
+.zen-dots {
+    font-family: 'Zen Dots', cursive;
+    text-shadow: 0px 0px 5px gray;
+    transition: text-shadow .8s;
+}
+
+.zen-dots:hover {
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.martel {
+    font-family: 'Martel', serif;
+    text-shadow: 0px 0px 5px rgb(187, 187, 187);
+}
+
+.line-text-nav{
+    width: 0px;
+    margin: 0px auto;
+    border-bottom: 2px groove black;
+    transition: width .5s;
+
+}
+
+.nav-item:hover > .line-text-nav{
+    width: 100%;
+
+}
+
+/* TAMAÑOS LETRAS */ 
+
+.f-12p{
+    font-size: 12px !important;
+}
+.f-15p{
+    font-size: 15px !important;
+}.f-20p{
+    font-size: 20px !important;
+}
+.f-24p{
+    font-size: 24px !important;
+}
+
+/* LOGIN MENU */
+
+.pos-login-menu{
+    margin-left: -120px!important;
+    margin-top: 20px!important;
+}
+
+
+
+/* SESION FALLIDO */
+
+.modalSesion{
+    display: none !important;
+    visibility: hidden !important;
+    margin-left: 30% !important;
+}
+.modalSesionOn{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100!important;
+    
+}
+.pos-card{
+    border-top: 50px !important;
+    box-shadow: 0px 0px 5px blanchedalmond;
+    margin-left: 40%;
+    margin-top : 10%;
+
+}
+
+/* TAMAÑOS */
+
+.height-10{
+    height: 10vh !important;
+}
+.height-25{
+    height: 25vh !important;
+}
+.height-50{
+    height: 50vh !important;
+}
+.height-75{
+    height: 75vh !important;
+}
+.height-100{
+    height: 100vh !important;
+}
+.width-25{
+    width: 25% !important;
+}
+.width-50{
+    width: 50% !important;
+}
+.width-75{
+    width: 75% !important;
+}
+.width-100{
+    width: 100% !important;
+}
